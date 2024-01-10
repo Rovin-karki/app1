@@ -350,6 +350,10 @@ p4a.bootstrap = webview
 # (int) port number to specify an explicit --port= p4a argument (eg for bootstrap flask)
 #p4a.port =
 p4a.port = 8080
+log_level = 2
+
+# (int) Display warning if buildozer is run as root (0 = False, 1 = True)
+warn_on_root = 1
 # Control passing the --use-setup-py vs --ignore-setup-py to p4a
 # "in the future" --use-setup-py is going to be the default behaviour in p4a, right now it is not
 # Setting this to false will pass --ignore-setup-py, true will pass --use-setup-py
